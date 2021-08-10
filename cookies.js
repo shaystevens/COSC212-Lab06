@@ -31,6 +31,6 @@ var Cookie = (function () {
     return pub;
 }());
 
-//Cookie.set("Tally", "Sixteen", 24);
-//console.log(Cookie.get("Name"));
-//Cookie.clear("Tally");
+Cookie.set("Name", "%Test", 24);
+console.log(Cookie.get("Name"));
+
